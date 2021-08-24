@@ -12,47 +12,46 @@
     <div class="container">
         <h2 class="text-center">Registration Form</h2>
         <div class="form">
-
             <table>
                 <tr>
                     <td>
-                        <label id="Label">Name</label>
+                        <label class="Label">Name</label>
                     </td>
                     <td>
-                        <input id="Input" placeholder="Enter Name" type="text"/>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label id="Label">Email</label>
-                    </td>
-                    <td>
-                        <input id="Input" placeholder="Enter Email Address" type="text"/>
+                        <input class="Input" placeholder="Enter Name" type="text"/>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <label id="Label">Password</label>
+                        <label class="Label">Email</label>
                     </td>
                     <td>
-                        <input id="Input" placeholder="Enter Password" type="password"/>
+                        <input class="Input" placeholder="Enter Email Address" type="text"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="Label">Password</label>
+                    </td>
+                    <td>
+                        <input class="Input" placeholder="Enter Password" type="password"/>
 
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <label id="Label">Confirm Password</label>
+                        <label class="Label">Confirm Password</label>
                     </td>
                     <td>
-                        <input id="Input" placeholder="Enter Confirm Password" type="password"/>
+                        <input class="Input" placeholder="Enter Confirm Password" type="password"/>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <label id="Label">Team</label>
+                        <label class="Label">Team</label>
                     </td>
                     <td>
-                        <select id="Select" default="select">
+                        <select class="Select" default="select">
                             <option value="None">None</option>
                             <option value="web-development">Web Development</option>
                             <option value="datascience">Data Science</option>
@@ -64,10 +63,10 @@
                 </tr>
                 <tr>
                     <td>
-                        <label id="Label">Role</label>
+                        <label class="Label">Role</label>
                     </td>
                     <td>
-                        <select id="Select" default="select">
+                        <select class="Select" default="select">
                             <option value="None">None</option>
                             <option value="senior-developer">Senior Developer</option>
                             <option value="junior-developer">Junior Developer</option>
@@ -80,18 +79,18 @@
                 </tr>
                 <tr>
                     <td>
-                        <label id="Label">Joining Date</label>
+                        <label class="Label">Joining Date</label>
                     </td>
                     <td>
-                        <input type="date" id="Select" name="date">                 
+                        <input type="date" class="Select" name="date">                 
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <label id="Label">Designation</label>
+                        <label class="Label">Designation</label>
                     </td>
                     <td>
-                        <select id="Select" default="select">
+                        <select class="Select" default="select">
                             <option value="None">None</option>
                             <option value="head">Head</option>
                             <option value="manager">Manager</option>
@@ -102,10 +101,10 @@
                 </tr>
                 <tr>
                     <td>
-                        <label id="Label">Job Nature</label>
+                        <label class="Label">Job Nature</label>
                     </td>
                     <td>
-                        <select id="Select" default="select">
+                        <select class="Select" default="select">
                             <option value="None">None</option>
                             <option value="full-time">Full Time</option>
                             <option value="part-time">Part Time</option>
@@ -117,15 +116,22 @@
                 </tr>
                 <tr>
                     <td>
-                        <label id="Label">Backup Person</label>
+                        <label class="Label">Backup Person</label>
                     </td>
                     <td>
-                        <input id="Input" placeholder="Enter Backup Person" type="text"/>
+                        <input class="Input" placeholder="Enter Backup Person" type="text"/>
                     </td>
                 </tr>
-
+                <tr>
+                    <td>
+                        <input id="btn" class="btn submit-btn" type="button" value="Submit"/>
+                    </td>
+                    <td>
+                        <input id="btn" class="btn cancel-btn" type="button" value="Cancel"/>
+                    </td>
+                </tr>
             </table>
-            
+
     </div>
     
 </body>
